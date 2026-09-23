@@ -1,0 +1,9 @@
+{
+  "name": "feed-digest",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-01",
+  "workers_dev": false,
+  "triggers": { "crons": ["*/5 * * * *"] },
+  "kv_namespaces": [{ "binding": "STATE", "id": "bd5bb1815dc04173aba51df08e48b9cd" }],
+  "observability": { "enabled": true }
+}
